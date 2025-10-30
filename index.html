@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DIEGO RAUDALES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .iconogrande {
+            font-size: 50px;
+            color: blue;
+        }
+
+        .icono_grande_color {
+            font-size: 50px;
+            color: white;
+            background-color: green;
+            border-radius: 125%;
+        }
+
+        footer {
+            background-color: #2A4B8C;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: white;
+        }
+
+        footer {
+            font-size: 24px;
+            margin-left: 100px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/14/01/43/background-2400765_1280.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/vector-gratis/fondo-garabato-abstracto-plano_23-2149336498.jpg?semt=ais_hybrid&w=740&q=80"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <h1 class="text-center">Repaso de ROW y COL </h1>
+            <div class="row">
+                <div class="col-6" style="background-color: red;">
+                    <p>HOLA</p>
+                </div>
+                <div class="col-6" style="background-color: blue;">
+                    <P>HOLA</P>
+
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col" style="background-color: red;">
+                    <p>HOLA</p>
+
+                </div>
+                <div class="col" style="background-color: blue;">
+                    <p>HOLA</p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-8" style="background-color: red;">
+                    <p>HOLA</p>
+
+                </div>
+                <div class="col-4" style="background-color: blue;">
+                    <p>HOLA</p>
+
+                </div>
+
+
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h1>About</h1>
+                    <p> simply dummy text of the printing and typesetting industry.</p>
+
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <img src="img/about-square-15.webp" width="700" height="700" alt="">
+
+                    </div>
+                    <div class="col">
+                        <h1>EMPOWERING BUSSINESS THROUGH INNOVATIVE</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="bi bi-trophy iconogrande icono_grande_color"></i>
+                                <h5>52+</h5>
+                                <h5>Productos</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="bi bi-people iconogrande icono_grande_color"></i>
+                                <h5>52+</h5>
+                                <h5>Clientes</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center ">
+                                <i class="bi bi-lightning iconogrande icono_grande_color"></i>
+                                <h5>52+</h5>
+                                <h5>Servicios</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center ">
+                                <i class="bi bi-globe-americas iconogrande icono_grande_color"></i>
+                                <h5>52+</h5>
+                                <h5>Proyectos</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            </div>
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1 class="">Tabs</h1>
+                        <p class="">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Servicios</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Productos</button>
+                        </li>
+
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <br>
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="img/b1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Servicio de Marketing</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card’s content.</p>
+                                            <a href="#" class="btn btn-primary">Ver mas</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="img/b1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Servicio de Marketing</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card’s content.</p>
+                                            <a href="#" class="btn btn-primary">Ver mas</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-3">
+
+
+                                    </div>
+                                    <div class="col-3">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                aria-labelledby="profile-tab" tabindex="0">
+                                Aqui se muestran los productos
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1 class="">Accordion</h1>
+                        <p class="">t is a long established fact that a reader </p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Pregunta #1
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Pregunta #2
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Pregunta #3
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section style="padding-top: 100px; background-color: bisque;">
+                <div class="container">
+                    <div class="text-center">
+                        <div id="mc_embed_shell">
+                            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
+                                type="text/css">
+                            <style type="text/css">
+                                #mc_embed_signup {
+                                    background: #fff;
+                                    false;
+                                    clear: left;
+                                    font: 14px Helvetica, Arial, sans-serif;
+                                    width: 600px;
+                                }
+
+                                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                            </style>
+                            <div id="mc_embed_signup">
+                                <form
+                                    action="https://gmail.us1.list-manage.com/subscribe/post?u=73e2ae2acd5ec66a5cba1c186&amp;id=4a2fe92afd&amp;f_id=00dec7e1f0"
+                                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                    class="validate" target="_blank">
+                                    <div id="mc_embed_signup_scroll">
+                                        <h2>Puede suscribirse para recibir promociones</h2>
+                                        <div class="indicates-required"><span class="asterisk">*</span> indica que es
+                                            obligatorio</div>
+                                        <div class="mc-field-group"><label for="mce-EMAIL">Dirección de correo
+                                                electrónico <span class="asterisk">*</span></label><input type="email"
+                                                name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                                        </div>
+                                        <div id="mce-responses" class="clear foot">
+                                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                                            <div class="response" id="mce-success-response" style="display: none;">
+                                            </div>
+                                        </div>
+                                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                            /* real people should not fill this in and expect good things - do not
+                                            remove this or risk form bot signups */
+                                            <input type="text" name="b_73e2ae2acd5ec66a5cba1c186_4a2fe92afd"
+                                                tabindex="-1" value="">
+                                        </div>
+                                        <div class="optionalParent">
+                                            <div class="clear foot">
+                                                <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                                                    class="button" value="Subscribe">
+                                                <p style="margin: 0px auto;"><a href="http://eepurl.com/jqIKrw"
+                                                        title="Mailchimp: marketing por correo electrónico fácil y divertido"><span
+                                                            style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
+                                                                class="refferal_badge"
+                                                                src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                                                alt="Intuit Mailchimp"
+                                                                style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <script type="text/javascript"
+                                src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                            <script
+                                type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+
+    </main>
+    <br>
+
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <div>
+                Copyright Diego Raudales 2025
+            </div>
+            <div>
+                Redes sociales
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
